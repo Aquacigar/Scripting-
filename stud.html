@@ -1,0 +1,30 @@
+<html>
+    <h1>class and objects</h1>
+    <body>
+        <script>
+            class student{
+                constructor(name,rollno,course,marks){
+                    this.name=name;
+                    this.rollno=rollno;
+                    this.course=course;
+                    this.marks=marks;
+
+                }
+                display(){
+                    document.write("student name : "+ this.name+"<br>");
+                    document.write("roll num : "+ this.rollno+"<br>");
+                    document.write("course : "+ this.course+"<br>");
+                    document.write("marks : "+ this.marks+"<br>");
+                }
+            }
+            let name= prompt("enter student name ");
+            let rollno=prompt("enter roll number");
+            let course=prompt("enter course");
+            let marks=prompt("enter marks");
+            
+            let s1= new student(name,rollno,course,marks);
+            s1.display();
+            </script>
+            </body>
+            </html>
+            
