@@ -1,0 +1,35 @@
+<html>
+<body>
+<script>
+
+let arr=[10,20,30,40,50];
+document.write("<h1>orignal array :</h1>",arr,"<br>");
+
+
+arr.push(60);
+document.write("after push :",arr,"<br>");
+
+arr.pop(60);
+document.write("after pop :",arr,"<br>");
+
+arr.shift();//removes first element in arr
+document.write("after shift :",arr,"<br>");
+
+arr.unshift(5);//adds first element in arr
+document.write("after unshift :",arr,"<br>");
+
+
+document.write("length is :",arr.length,"<br>");
+
+document.write("index of 30 is :",arr.indexOf(30),"<br>");
+
+let arr2=[70,80];
+document.write("after concat :",arr.concat(arr2),"<br>");
+
+
+document.write("after join :",arr.join("-"),"<br>");
+
+
+</script>
+</body>
+</html>
