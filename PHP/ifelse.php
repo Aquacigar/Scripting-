@@ -1,0 +1,10 @@
+<?php
+$marks = 75;
+
+if($marks >= 40){
+    echo "Pass";
+}
+else{
+    echo "Fail";
+}
+?>
